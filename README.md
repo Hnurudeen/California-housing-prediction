@@ -1,10 +1,11 @@
 # California Housing Price Prediction with Random Forest 🏠🌲
 
 ![Feature Importance Plot]()  
-*Example: Feature importance from the Random Forest model*
+
+
 ##Data Source
 The data is gotten from Kaggle
--[Download Here] (https://www.kaggle.com/datasets/camnugent/california-housing-prices)
+-[Download Here](https://www.kaggle.com/datasets/camnugent/california-housing-prices)
 
 ## 📝 Description  
 This project automates real estate valuation by predicting median house prices in California using **Random Forest Regression** and **hyperparameter tuning**. It addresses the limitations of manual appraisals by delivering fast, data-driven predictions with **82.6% accuracy (R² score)**.  
