@@ -1,7 +1,7 @@
 # California Housing Price Prediction with Random Forest 🏠🌲
 
 ##Data Source
-The data is gotten from Kaggle
+The data was gotten from Kaggle
 -[Download Here](https://www.kaggle.com/datasets/camnugent/california-housing-prices)
 
 ## 📝 Description  
