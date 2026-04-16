@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoint
+
+# Data — raw data should not be committed (can be large / sensitive)
+data/raw/*.csv
+data/processed/*.csv
+data/raw/*.parquet
+data/processed/*.parquet
+# Keep the .gitkeep marker files
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Trained models (binary files; track with DVC or similar)
+models/*.pkl
+models/*.joblib
+!models/.gitkeep
+
+# Reports output (generated artefacts)
+reports/figures/*.png
+reports/figures/*.jpg
+reports/model_report.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notebooks — sweetviz HTML reports
+*.html
